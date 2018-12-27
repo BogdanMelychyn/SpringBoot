@@ -5,7 +5,7 @@ import java.util.List;
 
 import lviv.SpringBoot.model.Customer;
 
-public interface CustomersRepo {
+public interface CustomersDAO {
 	
     List<Customer> getCustomerPayments();
     

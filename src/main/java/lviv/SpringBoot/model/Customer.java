@@ -2,13 +2,7 @@ package lviv.SpringBoot.model;
 
 public class Customer {
 
-	public Customer(Integer customerNumber, String name, String city, Double moneySpended) {
-
-		this.customerNumber = customerNumber;
-		this.name = name;
-		this.city = city;
-		this.moneySpended = moneySpended;
-	}
+	
 
 	private Integer customerNumber;
 	private String name;
@@ -17,7 +11,13 @@ public class Customer {
 
 	public Customer() {
 	}
+	public Customer(Integer customerNumber, String name, String city, Double moneySpended) {
 
+		this.customerNumber = customerNumber;
+		this.name = name;
+		this.city = city;
+		this.moneySpended = moneySpended;
+	}
 	public Integer getCustomerNumber() {
 		return customerNumber;
 	}
